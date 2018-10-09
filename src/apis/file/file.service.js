@@ -62,7 +62,7 @@ class FileService {
                 stream.end(data);
             })
             .catch(err => {
-                log.error('err ', err);
+                log.error('Error in resize to thumb method FileService ', err);
             });
     }
 
